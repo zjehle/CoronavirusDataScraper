@@ -81,3 +81,6 @@ df = df.drop(df.index[[220, 221, 222, 223, 224, 225, 226, 227]])
 
 # Save to .csv
 df.to_csv('coronavirus_data.csv', index=False)
+
+print("done")
+
